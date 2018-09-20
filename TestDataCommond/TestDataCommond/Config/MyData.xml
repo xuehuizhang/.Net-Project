@@ -13,14 +13,17 @@
   <DataCommand Name="UpdateCustomer" Database="MyTestDb">
     <CommandText>
       <![CDATA[
+        DECLARE @sql NVARCHAR(4000)
+        set @sql='select * from Users where 1=1 '
         if @Name='张三'
           BEGIN
-            select * from Users where age>10
+           set @sql+=' and age>10 '
           END
         else
           BEGIN
-            select * from Users where age<10
+           set @sql+=' and age > 10'
           END
+        EXEC(@sql)
       ]]>
     </CommandText>
 
