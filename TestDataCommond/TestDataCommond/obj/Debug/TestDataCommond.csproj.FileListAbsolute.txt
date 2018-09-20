@@ -1,0 +1,10 @@
+E:\work\code\pro\TestDataCommond\TestDataCommond\bin\Debug\TestDataCommond.exe.config
+E:\work\code\pro\TestDataCommond\TestDataCommond\bin\Debug\TestDataCommond.exe
+E:\work\code\pro\TestDataCommond\TestDataCommond\bin\Debug\TestDataCommond.pdb
+E:\work\code\pro\TestDataCommond\TestDataCommond\obj\Debug\TestDataCommond.csprojAssemblyReference.cache
+E:\work\code\pro\TestDataCommond\TestDataCommond\obj\Debug\TestDataCommond.csproj.CoreCompileInputs.cache
+E:\work\code\pro\TestDataCommond\TestDataCommond\obj\Debug\TestDataCommond.exe
+E:\work\code\pro\TestDataCommond\TestDataCommond\obj\Debug\TestDataCommond.pdb
+E:\work\code\pro\TestDataCommond\TestDataCommond\bin\Debug\Dapper.dll
+E:\work\code\pro\TestDataCommond\TestDataCommond\bin\Debug\Dapper.xml
+E:\work\code\pro\TestDataCommond\TestDataCommond\obj\Debug\TestDataCommond.csproj.CopyComplete

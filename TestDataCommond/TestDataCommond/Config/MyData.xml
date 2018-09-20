@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDataCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DataCommand Name="InsretCustomer" Database="MyTestDb">
+    <Parameters>
+      <Parameter Name="Name" Type="DbType.String" />
+      <Parameter Name="Address" Type="DbType.String" />
+    </Parameters>
+    <CommandText><![CDATA[insret into .....]]></CommandText>
+  </DataCommand>
+  
+  <DataCommand Name="UpdateCustomer" Database="MyTestDb">
+    <CommandText>
+      <![CDATA[
+        if @Name='张三'
+          BEGIN
+            select * from Users where age>10
+          END
+        else
+          BEGIN
+            select * from Users where age<10
+          END
+      ]]>
+    </CommandText>
+
+    <Parameters>
+      <Parameter Name="@Name" Type="DbType.String" direction="Input"/>
+      <Parameter Name="@Age" Type="DbType.Int32" direction="Input"/>
+    </Parameters>
+  </DataCommand>
+  
+</ArrayOfDataCommand>
